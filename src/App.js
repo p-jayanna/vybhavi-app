@@ -1,6 +1,6 @@
-
 import Expenses from "./components/Expenses.js";
-
+import ClassStateExample from "./screens/ClassStateExample.js";
+import FunctionStateExample from "./screens/FunctionStateExample.js";
 
 function App() {
   const expenses = [
@@ -26,7 +26,9 @@ function App() {
 
   return (
     <div>
-      <Expenses items={expenses}/>
+      <ClassStateExample />
+      <h1>_____________________________________________________________________________________________</h1>
+      <FunctionStateExample />
     </div>
   );
 }
