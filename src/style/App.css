@@ -1,0 +1,36 @@
+.App {
+  display: flex; 
+  justify-content: center;
+}
+
+.app-form {
+  background-color: rgb(236, 225, 225);
+  width: 80%;
+  padding: 2rem;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  
+}
+.input-second-group{
+ 
+  padding-top: 2rem;
+  align-items: left;
+  justify-content:left;
+
+}
+
+.button-group { 
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 2rem;
+}
